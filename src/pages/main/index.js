@@ -18,7 +18,7 @@ class Main extends Component {
           url: PropTypes.stsring
         })
       ),
-      error: PropTypes.oneOfType([null, PropTypes.string])
+      error: PropTypes.string
     }).isRequired
   };
   state = { repositoryInput: "" };
